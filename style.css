@@ -6,8 +6,8 @@ body{
 
 
 .recommendation{
-  width: 25%;
-  height: 190vh;
+  width: 30%;
+  height: 220vh;
   float: left;
   border-right-width: 20%;
   border-right: 3px solid rgb(17, 15, 15);
@@ -202,6 +202,7 @@ hr{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-size: 22px;
   font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   letter-spacing: 1px;
 }
