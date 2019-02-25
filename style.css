@@ -198,7 +198,7 @@ hr{
   background: rgba(0,0,0,0);
   color: white;
   position: absolute;
-  top: 35%; right: 0; bottom: 0; left: 20%;
+  top: 35%; right: 0; bottom: 0; left: 30%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -253,12 +253,8 @@ padding:0 45px 0 45px;
   border: 0px;
 }
 
-@media only screen and (min-width: 800px) {
-  .recommendation{
-    width: 35%;
-    height: 350vh;
-  }
-  .featured h1{
-    font-size: 10px;
+@media only screen and (min-width: 900px) {
+  .topmoviesbutton{
+    display:none;
   }
 }
