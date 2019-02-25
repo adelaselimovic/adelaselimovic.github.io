@@ -262,7 +262,8 @@ padding:0 45px 0 45px;
     font-size: 15px;
   }
   .recommendation{
-      width: 35%;
+      width: 40%;
+      height: 400vh;
   }
   
   .button{
