@@ -1,14 +1,13 @@
 body{
   background-color: rgb(14, 13, 13);
   margin:0;
-  overflow: hidden;
   height:100%;
 }
 
 
 .recommendation{
   width: 25%;
-  height: 100vh;
+  height: 120vh;
   float: left;
   border-right-width: 20%;
   border-right: 3px solid rgb(17, 15, 15);
@@ -113,10 +112,8 @@ body{
 
   .tab{
     position: absolute;
-    width: 300px;
-    height: 100px;
-    bottom:0;
-    margin-left: 60px;
+    bottom:5%;
+    margin-left: 10%;
   }
   
 
@@ -124,8 +121,8 @@ body{
     cursor: pointer;
     border-radius: 25%;
     border:1px solid rgb(7, 6, 6);
-    width: 120px;
-    height: 50px;
+    width: 130px;
+    height: 60px;
     text-decoration: none;
     color: initial;
     float:left;
@@ -155,7 +152,7 @@ video#myVideo{
 }
 
 .top_movies table{
-  margin-top: 25px;
+  margin-top: 10%;
   width: 67%;
   border-collapse: collapse;
   margin-left:30%;
