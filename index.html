@@ -1,11 +1,109 @@
 <!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Movies, TV Shows</title>
+    <link rel="icon" type="image/png" href="pictures/camera-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="pictures/camera-32x32.png" sizes="32x32">  
+    <link rel="icon" type="image/png" href="pictures/camera-96x96.png" sizes="96x96">  
+    <meta name="description" content="Find the best movies and TV shows, their rating, reviews and top actors">
+    <meta name="keywords" content="top movies best tv shows actors critics review rating">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta name="theme-color" content="#181313"> <!--provjeriti na mobitelu-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="application-name" content="Top Movies and TV shows">
+    <script src="script.js"></script>
+</head>
+<body>
+  <span class="recommendation">
+    <table>
+      <tr>
+        <td><img src="pictures/home_icon.png" width="20px"></td>
+        <td><a class="link" href="#">Home</a></td>
+      </tr>
+      <tr>
+        <td><img src="pictures/movie_icon.png" width="20px"></td>
+        <td><a class="link" href="#">Movies</a></td>
+      </tr>
+      <tr>
+        <td><img src="pictures/movie_icon.png" width="20px"></td>
+        <td><a class="link" href="#">TV Shows</a></td>
+      </tr>
+        <tr>
+          <td><img src="pictures/star_icon.png" width="20px"></td>
+          <td><a class="link" href="#">Rated</a></td>
+        </tr>
+        <tr>
+            <td><img src="pictures/favorites_icon.png" width="20px"></td>
+            <td><a class="link" href="#">Favorites</a></td>
+          </tr>
+  
+
+    </table>
+  
+  </span>
+    <div class="search-bar">
+        <input type="text"  id="myInput" onkeyup="myFunction()" placeholder="Search for movies and TV shows..">
+        <div class="myUL_container">
+        <ul id="myUL" class="lista">
+          <li><a href="#">The Dark Knight (2008)</a></li>
+          <li><a href="#">Black Panther (2018)</a></li>
+          <li><a href="#">The Godfather (1972)</a></li>
+          <li><a href="#">Inception (2010)</a></li>
+          <li><a href="#">The Matrix (1999)</a></li>
+          <li><a href="#">Interstellar (2014)</a></li>
+        </ul>
+      <hr/>
+
+        </div>
+      </div>
+    <div class="tab">
+      <button class="button" onclick="location.href='http://www.google.com'" type="button">
+       Top Movies</button>
+        <button class="button" onclick="location.href='http://www.google.com'" type="button">
+       Top TV Shows</button>
+    </div>
+
+    <div class="featured">
+      <div class="video">
+        <video autoplay muted loop id="myVideo">
+            <source src="pictures/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+          </div>
+          <h1>find yourself in a movie.</h1>
+
+    </div>
+
+    <div class="top_movies">
+      <table>
+        <tr>
+          <td><a href="#"><img src="pictures/blackpanther.jpg" width="105px">
+          <h2>Black Panther</h2></a>
+          </td>
+          <td><a href="#"><img src="pictures/darkknight.jpg" width="105px">
+            <h2>The Dark Knight</h2>
+          </a>
+            </td>
+            <td><a href="#"><img src="pictures/godfather.jpg" width="110px">
+              <h2>The Godfather</h2>
+            </a>
+              </td>
+              <td><a href="#"><img src="pictures/matrix.jpg" width="105px">
+                <h2>The Matrix</h2>
+              </a>
+              <td><a href="#"><img src="pictures/inception.jpg" width="105px">
+                <h2>Inception</h2>
+              </a>
+                </td>
+                  </td>
+        </tr>
+
+      </table>
+    </div>
 
 
-<head> </head>
 
-
-
-<body> </body>
+</body>
 
 
 </html>
