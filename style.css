@@ -253,8 +253,12 @@ padding:0 45px 0 45px;
   border: 0px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
   #topmoviesbutton{
     display:none;
+  }
+  .featured h1{
+    top: 35%; right: 0; bottom: 0; left: 40%;
+    font-size: 15px;
   }
 }
