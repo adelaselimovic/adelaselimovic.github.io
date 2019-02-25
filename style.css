@@ -1,0 +1,200 @@
+body{
+  background-color: rgb(14, 13, 13);
+  margin:0;
+  overflow: hidden;
+  height:100%;
+}
+
+
+.recommendation{
+  width: 25%;
+  height: 100vh;
+  float: left;
+  border-right-width: 20%;
+  border-right: 3px solid rgb(17, 15, 15);
+  background-color: black;
+  color:white;
+}
+.recommendation table{
+  list-style-type: none;
+  text-align: center;
+  margin: 200px auto;
+}
+.recommendation table td{
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+  font-size: 14px;
+}
+.recommendation table td a{
+  text-decoration: none;
+  color:white;
+}
+
+.recommendation table td a:hover{
+  color:rgb(145, 142, 142);
+  transition: all 400ms ease;
+}
+
+.recommendation .link{
+    position: relative;
+}
+  
+.recommendation .link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 1px;
+  display: block;
+  margin-top: 1px;
+  right: 0;
+  background: rgb(145,142,142);
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+   
+.recommendation .link:hover:after{
+  width: 100%;
+  left: 0;
+  background: rgb(145,142,142);
+}
+
+
+#myInput {
+    background-image: url('pictures/search-icon.png'); /* Add a search icon to input */
+    background-position: 9px 7px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 23%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-top: 10px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    width: 25%;
+    position: absolute;
+    margin:0 auto;
+    margin-left: 50%;
+    padding:0;
+    z-index: 1;
+  }
+
+  .search-bar .myUL_container{
+    text-align: center;
+    
+  }
+ 
+  .search-bar{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .search-bar .lista{
+      display: none;
+    }
+
+  .search-bar:focus-within .lista{
+      display: block;
+  }
+
+  #myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+  #myUL li a:hover{
+    color:grey;
+  }
+
+  .tab{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    bottom:0;
+    margin-left: 60px;
+  }
+  
+
+  .button {
+    cursor: pointer;
+    border-radius: 25%;
+    border:1px solid rgb(7, 6, 6);
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    color: initial;
+    float:left;
+}
+.button:hover{
+  background-color: rgb(53, 52, 52);
+  color:white;
+}
+
+.featured{
+  height: 450px;
+  margin-top: 1%;
+  margin-left: 35%;
+  margin-right: 3%;
+}
+
+video#myVideo{
+  width: 87%;
+  z-index: -1;
+}
+
+.top_movies{
+  color:white;
+  font-size: 10px;
+  margin-top: 10px;
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top_movies table{
+  margin-top: 25px;
+  width: 67%;
+  border-collapse: collapse;
+  margin-left:30%;
+}
+.top_movies table tr td{
+position:relative;
+float: left;
+padding:0 45px 0 45px;
+}
+.top_movies table tr td a{
+  text-decoration: none;
+}
+.top_movies table tr td a:hover h2{
+  color: rgb(70, 67, 67);
+}
+.top_movies table tr td a:hover img{
+  opacity: 0.6;
+}
+
+.top_movies table tr td h2{
+  color:white;
+}
+.top_movies table tr td img{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+hr{
+  width: 20%;
+}
+
+.featured h1{
+  background: rgba(0,0,0,0);
+  color: white;
+  position: absolute;
+  top: 35%; right: 0; bottom: 0; left: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
